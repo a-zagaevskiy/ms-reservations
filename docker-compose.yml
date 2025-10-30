@@ -1,8 +1,8 @@
 version: "3.4"
 
 services:
-  ms-template-microservice:
-    container_name: ms-template-microservice
+  ms-reservations:
+    container_name: ms-reservations
     build:
       context: .
     restart: always
